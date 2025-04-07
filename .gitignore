@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.qodo
+
+# The default engine is: bun
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
