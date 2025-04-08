@@ -23,7 +23,6 @@ const eslintConfig = [
     files: ['**/*.{js,jsx,ts,tsx}'],
     plugins: {
       prettier: eslintPluginPrettier,
-      // You can add other plugins here if needed
     },
     languageOptions: {
       globals: {
@@ -41,15 +40,14 @@ const eslintConfig = [
         version: 'detect',
       },
     },
-    ...eslintConfigPrettier, // Spread the Prettier config object
+    ...eslintConfigPrettier,
     rules: {
-      'prettier/prettier': 'warn', // Or 'error' to treat Prettier issues as errors
+      'prettier/prettier': 'warn',
       'no-unused-vars': 'warn',
       'no-console': 'warn',
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 'off',
       'no-empty-function': 'warn',
-      // Add or override other ESLint rules as needed
     },
   },
 ]
