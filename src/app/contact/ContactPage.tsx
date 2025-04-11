@@ -23,23 +23,23 @@ function ContactPage() {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li className="mb-2">
-                **Expert Solutions:** Benefit from 15+ years of full-stack
+                <strong>Expert Solutions:</strong> Benefit from 15+ years of full-stack
                 experience delivering high-quality B2B software.
               </li>
               <li className="mb-2">
-                **Agile Delivery:** Experience efficient project execution with
+                <strong>Agile Delivery:</strong> Experience efficient project execution with
                 our agile development methodologies.
               </li>
               <li className="mb-2">
-                **Scalable Teams:** Get the right team size (2-10 developers) to
+                <strong>Scalable Teams:</strong> Get the right team size (2-10 developers) to
                 match your project&lsquo;s scope and scale.
               </li>
               <li className="mb-2">
-                **Cutting-Edge Tech:** Leverage our expertise in React, Next.js,
+                <strong>Cutting-Edge Tech:</strong> Leverage our expertise in React, Next.js,
                 Node.js, Blockchain, and AI for future-proof solutions.
               </li>
               <li className="mb-2">
-                **Proven Results:** Improve your project delivery timelines and
+                <strong>Proven Results:</strong> Improve your project delivery timelines and
                 achieve your business objectives with confidence.
               </li>
             </ul>
