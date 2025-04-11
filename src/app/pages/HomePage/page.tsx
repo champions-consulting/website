@@ -25,7 +25,7 @@ export default function HomePage() {
               Get a Free Consultation
             </Link>
             <Link
-              href="/services"
+              href="/full-stack-development-services"
               className="inline-block bg-transparent hover:bg-gray-800 text-white py-3 px-8 rounded-md font-semibold border border-white"
             >
               Explore Our Services
