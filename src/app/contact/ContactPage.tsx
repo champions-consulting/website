@@ -1,8 +1,7 @@
-'use client' // Assuming you'll have form interactivity
+'use client'
 
 import React from 'react'
-import Link from 'next/link' // If you want to link to an email client
-import Image from 'next/image'
+import Link from 'next/link'
 
 function ContactPage() {
   return (
