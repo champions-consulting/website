@@ -35,15 +35,14 @@ function FullStackDevelopmentServicesPage() {
               </p>
               <ul className="list-disc list-inside text-gray-700">
                 <li className="mb-2">
-                  **React & Next.js:** Building dynamic single-page applications
-                  and server-rendered web applications for optimal performance
-                  and SEO.
+                  <strong>React & Next.js:</strong> Building dynamic single-page
+                  applications and server-rendered web applications for optimal
+                  performance and SEO.
                 </li>
                 <li className="mb-2">
-                  **Typescript:** Ensuring code quality and maintainability with
-                  strong typing.
+                  <strong>Typescript</strong>:Ensuring code quality and
+                  maintainability with strong typing.
                 </li>
-                {/* Add more front-end technologies as needed */}
               </ul>
             </div>
 
@@ -57,14 +56,13 @@ function FullStackDevelopmentServicesPage() {
               </p>
               <ul className="list-disc list-inside text-gray-700">
                 <li className="mb-2">
-                  **Node.js & Nestjs:** Building efficient and scalable APIs and
-                  server-side applications.
+                  <strong>Node.js & Nestjs:</strong> Building efficient and
+                  scalable APIs and server-side applications.
                 </li>
                 <li className="mb-2">
-                  **GraphQL & REST APIs:** Designing and implementing robust
-                  data access layers.
+                  <strong>GraphQL & REST APIs:</strong> Designing and
+                  implementing robust data access layers.
                 </li>
-                {/* Add more back-end technologies as needed */}
               </ul>
             </div>
           </div>
@@ -80,30 +78,31 @@ function FullStackDevelopmentServicesPage() {
           </p>
           <ol className="list-decimal list-inside text-gray-700">
             <li className="mb-4">
-              **Requirements Gathering:** We work closely with you to understand
-              your business needs and project goals. (Based on &quot;Stakeholder
-              Collaboration&quot; and &quot;Business Requirements Analysis&quot;
-              from your resume)
+              <strong>Requirements Gathering:</strong> We work closely with you
+              to understand your business needs and project goals. (Based on
+              &quot;Stakeholder Collaboration&quot; and &quot;Business
+              Requirements Analysis&quot; from your resume)
             </li>
             <li className="mb-4">
-              **Architecture & Design:** We design scalable and maintainable
-              system architectures. (Based on your &quot;Architecture&quot;
-              experience)
+              <strong>Architecture & Design:</strong> We design scalable and
+              maintainable system architectures. (Based on your
+              &quot;Architecture&quot; experience)
             </li>
             <li className="mb-4">
-              **Development & Implementation:** We build high-quality code
-              adhering to best practices. (Based on &quot;Full Stack
-              Development&quot; responsibilities)
+              <strong>Development & Implementation:</strong> We build
+              high-quality code adhering to best practices. (Based on &quot;Full
+              Stack Development&quot; responsibilities)
             </li>
             <li className="mb-4">
-              **Testing & Quality Assurance:** We ensure robust functionality
-              and performance through rigorous testing. (Based on &quot;Code
-              Quality&quot; and &ldquo;Perfromance Optimisation&quot;)
+              <strong>Testing & Quality Assurance:</strong> We ensure robust
+              functionality and performance through rigorous testing. (Based on
+              &quot;Code Quality&quot; and &ldquo;Perfromance
+              Optimisation&quot;)
             </li>
             <li className="mb-4">
-              **Deployment & Maintenance:** We handle deployment and provide
-              ongoing support. (Based on &quot;Vercel Deployment&quot; and
-              &quot;Gooogle Cloud Management&quot;)
+              <strong>Deployment & Maintenance:</strong> We handle deployment
+              and provide ongoing support. (Based on &quot;Vercel
+              Deployment&quot; and &quot;Gooogle Cloud Management&quot;)
             </li>
           </ol>
         </section>
@@ -114,24 +113,24 @@ function FullStackDevelopmentServicesPage() {
           </h2>
           <ul className="list-disc list-inside text-gray-700">
             <li className="mb-2">
-              **End-to-End Expertise:** We handle all aspects of your project,
-              from front-end to back-end.
+              <strong>End-to-End Expertise:</strong> We handle all aspects of
+              your project, from front-end to back-end.
             </li>
             <li className="mb-2">
-              **Scalability & Performance:** We build applications designed to
-              grow and perform under high load.
+              <strong>Scalability & Performance:</strong> We build applications
+              designed to grow and perform under high load.
             </li>
             <li className="mb-2">
-              **Modern Technologies:** We utilize the latest tools and
-              frameworks for efficient development.
+              <strong>Modern Technologies:</strong> We utilize the latest tools
+              and frameworks for efficient development.
             </li>
             <li className="mb-2">
-              **Clean & Maintainable Code:** We prioritize code quality and
-              maintainability for long-term success.
+              <strong>Clean & Maintainable Code:</strong> We prioritize code
+              quality and maintainability for long-term success.
             </li>
             <li className="mb-2">
-              **Collaborative Approach:** We work closely with you throughout
-              the development lifecycle.
+              <strong>Collaborative Approach:</strong> We work closely with you
+              throughout the development lifecycle.
             </li>
           </ul>
         </section>
