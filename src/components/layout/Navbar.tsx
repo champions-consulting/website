@@ -11,13 +11,10 @@ function Navbar() {
         </Link>
         <div>
           <Link
-            href="/champions-consulting"
+            href="/full-stack-development-services"
             className="mr-4 hover:text-blue-300"
           >
-            Champions Consulting
-          </Link>
-          <Link href="/blog" className="mr-4 hover:text-blue-300">
-            Blog
+            Services
           </Link>
           <Link href="/contact" className="hover:text-blue-300">
             Contact
