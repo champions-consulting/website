@@ -7,7 +7,7 @@ function Navbar() {
     <nav className="bg-gray-800 py-4 text-white">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold">
-          Full-Stack Solutions
+          Champions consulting
         </Link>
         <div>
           <Link
