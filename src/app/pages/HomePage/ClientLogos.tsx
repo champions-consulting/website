@@ -38,6 +38,7 @@ function ClientLogo({
 function ClientLogos() {
   const clients = [
     {
+      index: 'siemens',
       name: 'Siemens Energy',
       logo: '/organizations/Siemens_Energy_logo.svg',
       width: 120,
@@ -46,6 +47,7 @@ function ClientLogos() {
       style: {width: '8rem', height: '5rem'},
     },
     {
+      index: 'red-cross',
       name: 'Red Cross',
       logo: '/organizations/ICRC.svg',
       width: 60,
@@ -53,6 +55,7 @@ function ClientLogos() {
       isPriority: false,
     },
     {
+      index: 'occrp',
       name: 'OCCRP',
       logo: '/organizations/occrp.svg',
       width: 120,
@@ -60,6 +63,7 @@ function ClientLogos() {
       isPriority: false,
     },
     {
+      index: 'fan3',
       name: 'fan3.io',
       logo: '/organizations/fan3.svg',
       width: 120,
@@ -74,6 +78,7 @@ function ClientLogos() {
       },
     },
     {
+      index: 'collinson',
       name: 'Collinson Group',
       logo: '/organizations/collinson.svg',
       width: 120,
@@ -89,9 +94,9 @@ function ClientLogos() {
           Trusted By Leading Organizations
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-          {clients.map((client, index) => (
+          {clients.map(client => (
             <ClientLogo
-              key={index}
+              key={client.index}
               src={client.logo}
               alt={client.name}
               width={client.width}
