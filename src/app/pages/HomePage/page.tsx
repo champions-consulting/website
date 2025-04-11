@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import ClientLogos from './ClientLogos'
 
 export default function HomePage() {
@@ -42,26 +41,47 @@ export default function HomePage() {
               About Champions Consulting
             </h2>
             <p className="text-gray-700 mb-6">
-              Champions Consulting brings together a team of experienced
-              developers, led by Dimitar Danailov, a seasoned full-stack
-              engineer with over 15 years of experience. We combine the agility
-              of a focused team with the strategic vision of enterprise-level
-              consulting.
+              Champions Consulting is a collective of senior engineers,
+              architects, and technology leaders with deep expertise in
+              delivering scalable full-stack solutions. We bring a strategic
+              blend of hands-on development experience and high-level
+              architectural guidance.
             </p>
-            <p className="text-gray-700">
-              Champions Consulting provides high-level software architecture and
-              technical guidance, leveraging a proven track record of optimizing
-              development processes and delivering complex solutions.
-            </p>
+            <ul className="list-disc pl-5 text-gray-700 space-y-2">
+              <li>
+                15+ years of full-stack engineering experience across the team
+              </li>
+              <li>
+                12+ years leading technical teams and managing engineering
+                departments
+              </li>
+              <li>
+                Proven success in remote-first B2B engagements for over 6 years
+              </li>
+              <li>
+                CTO-level leadership on scaling teams and delivery in companies
+                of 25+ employees
+              </li>
+              <li>Multiple Staff Engineer and Engineering Manager tenures</li>
+              <li>
+                Extensive track record in software architecture and tech
+                leadership roles
+              </li>
+              <li>
+                Contributors to open-source initiatives including Mozilla
+                Foundation and XState
+              </li>
+            </ul>
           </div>
-          <div className="rounded-lg overflow-hidden shadow-lg">
-            <Image
-              src="/images/about-us.jpg"
-              alt="About Us"
-              width={600}
-              height={400}
-              className="w-full h-auto object-cover"
-            />
+          <div className="bg-white rounded-lg shadow-md p-6">
+            <h3 className="text-xl font-semibold mb-4 text-blue-700">
+              Our Edge
+            </h3>
+            <p className="text-gray-700">
+              We&apos;re not just implementers—we partner with your team to
+              define technical direction, improve development workflows, and
+              ensure delivery of complex systems with precision and quality.
+            </p>
           </div>
         </div>
       </section>
