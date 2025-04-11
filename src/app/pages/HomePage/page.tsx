@@ -3,6 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import ClientLogos from './ClientLogos'
 
 export default function HomePage() {
   return (
@@ -129,60 +130,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4 md:px-8">
-          <h2 className="text-3xl font-bold mb-12 text-gray-900 text-center">
-            Trusted By Leading Organizations
-          </h2>
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            <div className="w-32 h-20 flex items-center justify-center opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="/images/siemens_logo.png"
-                alt="Siemens"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="w-32 h-20 flex items-center justify-center opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="/images/redcross_logo.png"
-                alt="Red Cross"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="w-32 h-20 flex items-center justify-center opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="/images/occrp_logo.png"
-                alt="OCCRP"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="w-32 h-20 flex items-center justify-center opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="/images/fan3_logo.png"
-                alt="fan3.io"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-            <div className="w-32 h-20 flex items-center justify-center opacity-70 grayscale hover:opacity-100 hover:grayscale-0 transition-all duration-300">
-              <Image
-                src="/images/collinson_logo.png"
-                alt="Collinson Group"
-                width={120}
-                height={60}
-                className="object-contain"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      <ClientLogos />
 
       <section className="py-24 bg-gray-900 text-white">
         <div className="container mx-auto px-4 md:px-8 text-center">
