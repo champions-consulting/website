@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function ContactPage() {
   return (
-    <section className="py-16">
+    <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-4xl font-bold mb-8 text-gray-900">
