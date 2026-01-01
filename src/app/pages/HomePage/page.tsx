@@ -49,10 +49,10 @@ export default function HomePage() {
             </p>
             <ul className="list-disc pl-5 text-gray-700 space-y-2">
               <li>
-                15+ years of full-stack engineering experience across the team
+                16+ years of full-stack engineering experience across the team
               </li>
               <li>
-                12+ years leading technical teams and managing engineering
+                13+ years leading technical teams and managing engineering
                 departments
               </li>
               <li>
