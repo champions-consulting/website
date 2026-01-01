@@ -1,29 +1,11 @@
-import {dirname} from 'path'
-import {fileURLToPath} from 'url'
-import {FlatCompat} from '@eslint/eslintrc'
-import eslintPluginPrettier from 'eslint-plugin-prettier'
 import globals from 'globals'
-import eslintConfigPrettier from 'eslint-config-prettier' // Import the config object
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = dirname(__filename)
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-})
-
-const nextTypeScriptConfigs = compat.extends(
-  'next/core-web-vitals',
-  'next/typescript',
-)
+import nextVitals from 'eslint-config-next/core-web-vitals'
+import prettierPlugin from 'eslint-plugin-prettier'
 
 const eslintConfig = [
-  ...nextTypeScriptConfigs,
+  ...nextVitals,
   {
     files: ['**/*.{js,jsx,ts,tsx}'],
-    plugins: {
-      prettier: eslintPluginPrettier,
-    },
     languageOptions: {
       globals: {
         ...globals.browser,
@@ -35,14 +17,16 @@ const eslintConfig = [
         },
       },
     },
+    plugins: {
+      prettier: prettierPlugin,
+    },
     settings: {
       react: {
         version: 'detect',
       },
     },
-    ...eslintConfigPrettier,
     rules: {
-      'prettier/prettier': 'warn',
+      ...prettierPlugin.configs.recommended.rules,
       'no-unused-vars': 'warn',
       'no-console': 'warn',
       'react/react-in-jsx-scope': 'off',

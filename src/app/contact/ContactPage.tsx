@@ -23,24 +23,25 @@ function ContactPage() {
             </h2>
             <ul className="list-disc list-inside text-gray-700">
               <li className="mb-2">
-                <strong>Expert Solutions:</strong> Benefit from 15+ years of full-stack
-                experience delivering high-quality B2B software.
+                <strong>Expert Solutions:</strong> Benefit from 15+ years of
+                full-stack experience delivering high-quality B2B software.
               </li>
               <li className="mb-2">
-                <strong>Agile Delivery:</strong> Experience efficient project execution with
-                our agile development methodologies.
+                <strong>Agile Delivery:</strong> Experience efficient project
+                execution with our agile development methodologies.
               </li>
               <li className="mb-2">
-                <strong>Scalable Teams:</strong> Get the right team size (2-10 developers) to
-                match your project&lsquo;s scope and scale.
+                <strong>Scalable Teams:</strong> Get the right team size (2-10
+                developers) to match your project&lsquo;s scope and scale.
               </li>
               <li className="mb-2">
-                <strong>Cutting-Edge Tech:</strong> Leverage our expertise in React, Next.js,
-                Node.js, Blockchain, and AI for future-proof solutions.
+                <strong>Cutting-Edge Tech:</strong> Leverage our expertise in
+                React, Next.js, Node.js, Blockchain, and AI for future-proof
+                solutions.
               </li>
               <li className="mb-2">
-                <strong>Proven Results:</strong> Improve your project delivery timelines and
-                achieve your business objectives with confidence.
+                <strong>Proven Results:</strong> Improve your project delivery
+                timelines and achieve your business objectives with confidence.
               </li>
             </ul>
           </div>
